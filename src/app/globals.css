@@ -1,27 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Chivo:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @tailwind base;
+
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+html,
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  
+
+body::-webkit-scrollbar {
+  width: 0px;
+}
+
+*::-webkit-scrollbar {
+  width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(223, 220, 220, 0.664);
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(218, 217, 217, 0.548);
+  border-radius:0 5px 5px 0;
+  border: 1px solid rgba(158, 157, 157, 0.233);
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+   min-height: 100vh;
+   height: 100%;
+   background: rgb(32,10,57);
+   background: linear-gradient(61deg, rgba(32,10,57,1) 10%, rgba(255,13,139,1) 45%, rgba(254, 126, 66, 0.952) ,rgba(255,63,86,1) 78%);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   font-family: 'Anton', sans-serif;
+   color: white;
+   padding: 0;
+   margin: 0;
+   font-size: 16px; 
+ 
+ }
+
+ @media screen and (max-width: 640px) {
+  *::-webkit-scrollbar {
+    width: 0px;
+  }
 }
