@@ -30,7 +30,7 @@ const RightNav = ({ open }) => {
   return (
     <div
       className={CN(
-        "absolute right-0 top-0  bg-slate-800 pt-14 h-screen w-52  px-3 bg-opacity-80 lg:hidden z-10 ",
+        "absolute right-0 top-0  bg-slate-800 pt-14 h-screen w-52  px-3 bg-opacity-80 xl:hidden z-10 ",
         {
           "hidden ": !open,
         }
