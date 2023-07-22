@@ -1,5 +1,10 @@
 import React from "react";
 
+export const metadata = {
+  title: "Filosofia de Ministério",
+  description: "Amar a Deus servindo gente.",
+};
+
 function Philosofy(props) {
   return (
     <div className="">

@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
         ))}
       </div>
-      <p className="mt-2 text-xs text-center">
+      <p className="mt-2 text-[8px] sm:text-[10px] tracking-wide text-center">
         Evangelho Simples todos os direitos reservados - 2023
       </p>
     </div>

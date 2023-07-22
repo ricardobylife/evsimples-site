@@ -37,7 +37,7 @@ const MainNav = () => {
           <ul>
             {navLinks.map(({ href, label, target }) => (
               <li
-                className="my-1 text-3xl text-center transition-all duration-[400ms] sm:text-4xl lg:text-5xl sm:text-right hover:scale-110 hover:-translate-x-2"
+                className="my-1 text-3xl text-center transition-all duration-[400ms] sm:text-4xl lg:text-5xl sm:text-right hover:underline sm:hover:no-underline hover:scale-110 sm:hover:-translate-x-2"
                 key={href}
               >
                 <Link href={href} target={target}>

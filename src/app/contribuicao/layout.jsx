@@ -3,8 +3,8 @@ import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 
 export const metadata = {
-  title: "Institucional",
-  description: "Conheça mais sobre o Evangelho Simples",
+  title: "Contribuição -  Evangelho Simples",
+  description: "Contribua com o Evangelho Simples",
 };
 
 export default function RootLayout({ children }) {
