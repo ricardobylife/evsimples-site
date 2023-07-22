@@ -5,7 +5,7 @@ const ScreenClickSensor = ({ open, setOpen }) => {
   return (
     <div
       className={CN(
-        "fixed inset-0 z-10 bg-slate-700 bg-opacity-30 transition-all duration-300 ease-in-out lg:hidden",
+        "fixed inset-0 z-10 bg-slate-700 bg-opacity-30 transition-all duration-300 ease-in-out xl:hidden",
         {
           "opacity-0 pointer-events-none": !open,
         },
