@@ -12,7 +12,7 @@ const Burger = () => {
       <ScreenClickSensor open={open} setOpen={setOpen} />
       <div
         className={CN(
-          "transition-all duration-500 cursor-pointer z-20 mr-2 lg:hidden group  ",
+          "transition-all duration-500 cursor-pointer z-20 mr-2 xl:hidden group  ",
           {
             "-translate-y-1": open,
           }

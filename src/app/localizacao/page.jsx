@@ -8,7 +8,7 @@ function Map() {
       <section className="w-full h-full p-2 institutional">
         <div className="flex flex-col justify-between w-full h-full">
           <div className="mb-2">
-            <h2>Localização</h2>
+            <h2 className="text-3xl tracking-wide">Localização</h2>
           </div>
           <div className="w-full h-full bg-black rounded-md border-slate-400">
             <iframe

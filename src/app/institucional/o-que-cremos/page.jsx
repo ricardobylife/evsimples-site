@@ -1,5 +1,10 @@
 import React from "react";
 
+export const metadata = {
+  title: "O que cremos",
+  description: "Um pouco sobre a nossa fé.",
+};
+
 function Believes(props) {
   return (
     <>

@@ -23,6 +23,7 @@ const navLinks = [
     href: "/contribuicao",
     label: "CONTRIBUIÇÃO",
   },
+  { href: "/contato", label: "CONTATO" },
 ];
 
 const RightNav = ({ open }) => {

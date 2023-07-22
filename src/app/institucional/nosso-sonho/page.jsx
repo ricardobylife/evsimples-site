@@ -1,5 +1,10 @@
 import React from "react";
 
+export const metadata = {
+  title: "Nosso sonho",
+  description: "A igreja que queremos ser...",
+};
+
 function Dream(props) {
   return (
     <>
