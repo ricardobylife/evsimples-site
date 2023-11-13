@@ -9,7 +9,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <div className="h-screen">
+    <div className="h-[100svh]">
       <div className="flex flex-col justify-between h-full ">
         <div className="mb-10 ">
           <Header />
