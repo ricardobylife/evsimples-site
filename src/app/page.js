@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="h-[99.9vh]">
+    <div className="h-[100svh]">
       <div className="flex flex-col justify-between h-full">
         <Header />
         <MainNav />
